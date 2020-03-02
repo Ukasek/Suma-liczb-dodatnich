@@ -25,7 +25,7 @@ public class NumCalc {
 
     public static String numInfo(List positiveNumbers) {
         double sum = 0;
-        String info = " ";
+        String info = "";
         for (int i = 0; i < positiveNumbers.size(); i++) {
             sum += (Double) positiveNumbers.get(i);
             if (i == positiveNumbers.size() - 1) {
